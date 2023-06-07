@@ -11,8 +11,8 @@ export const TextStyle = ({children}) => {
 
 const style = StyleSheet.create({
     titleText: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        marginTop: 10
+        fontSize: 22,
+        marginTop: 10,
+        fontFamily: 'SourceSansPro_700Bold',
     }
 })
