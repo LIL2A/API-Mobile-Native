@@ -3,7 +3,7 @@ import guibli from '../../../../assets/totoro.png';
 
 export  const Logo = () => {
     return (
-        <Image source={guibli} style={styles.logo} />
+        <Image source={guibli} style={{height: 220,width: 240}} />
     )
 }
 
